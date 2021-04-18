@@ -1,0 +1,19 @@
+.layout {
+    min-height: 100vh;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    float: left;
+    font-size: 1.6rem;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    text-align: center;
+}

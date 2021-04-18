@@ -18,5 +18,3 @@ describe('action test', () => {
         expect(actions.setToken(token)).toEqual(expectedAction)
     })
 })
-
-export {}

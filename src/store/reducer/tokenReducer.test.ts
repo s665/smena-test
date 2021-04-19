@@ -8,15 +8,7 @@ const initialState = {
 }
 
 describe('token reducer', () => {
-    it('should return initial state', () => {
-        expect(tokenReducer(undefined, {})).toEqual(
-            {
-                token: null,
-                loading: false,
-                error: null
-            }
-        )
-    })
+
     it('should handle FETCH_TOKEN_SUCCESS', () => {
         expect(
             tokenReducer(initialState, {
